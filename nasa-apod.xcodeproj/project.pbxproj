@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0A0D4912817D48800639898 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0D4902817D48800639898 /* APIResource.swift */; };
+		E0A0D4932817D49400639898 /* ApodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0D4922817D49400639898 /* ApodViewModel.swift */; };
+		E0A0D4952817D49B00639898 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0D4942817D49B00639898 /* ApiManager.swift */; };
+		E0A0D4972817D4A100639898 /* MiscellaneousViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0D4962817D4A100639898 /* MiscellaneousViewFactory.swift */; };
+		E0A0D4992817D4A800639898 /* LoadingDialog+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0D4982817D4A800639898 /* LoadingDialog+ViewController.swift */; };
+		E0A0D49C2817D4EA00639898 /* NasaApodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0D49B2817D4EA00639898 /* NasaApodResponse.swift */; };
+		E0A0D49E2817D55A00639898 /* api.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0A0D49D2817D55A00639898 /* api.plist */; };
 		E0E3B3912817C8D7000840F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E3B3902817C8D7000840F2 /* AppDelegate.swift */; };
 		E0E3B3932817C8D7000840F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E3B3922817C8D7000840F2 /* SceneDelegate.swift */; };
 		E0E3B3952817C8D7000840F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E3B3942817C8D7000840F2 /* ViewController.swift */; };
-		E0E3B3982817C8D7000840F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B3962817C8D7000840F2 /* Main.storyboard */; };
 		E0E3B39A2817C8D8000840F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B3992817C8D8000840F2 /* Assets.xcassets */; };
 		E0E3B39D2817C8D8000840F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E3B39B2817C8D8000840F2 /* LaunchScreen.storyboard */; };
 		E0E3B3A82817C8D8000840F2 /* nasa_apodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E3B3A72817C8D8000840F2 /* nasa_apodTests.swift */; };
@@ -35,11 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0A0D4902817D48800639898 /* APIResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		E0A0D4922817D49400639898 /* ApodViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApodViewModel.swift; sourceTree = "<group>"; };
+		E0A0D4942817D49B00639898 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		E0A0D4962817D4A100639898 /* MiscellaneousViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscellaneousViewFactory.swift; sourceTree = "<group>"; };
+		E0A0D4982817D4A800639898 /* LoadingDialog+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoadingDialog+ViewController.swift"; sourceTree = "<group>"; };
+		E0A0D49B2817D4EA00639898 /* NasaApodResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NasaApodResponse.swift; sourceTree = "<group>"; };
+		E0A0D49D2817D55A00639898 /* api.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = api.plist; sourceTree = "<group>"; };
 		E0E3B38D2817C8D7000840F2 /* nasa-apod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nasa-apod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E3B3902817C8D7000840F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E3B3922817C8D7000840F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E0E3B3942817C8D7000840F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E0E3B3972817C8D7000840F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0E3B3992817C8D8000840F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E3B39C2817C8D8000840F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E3B39E2817C8D8000840F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +88,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0A0D4892817D2A300639898 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E0A0D4982817D4A800639898 /* LoadingDialog+ViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E0A0D48A2817D2A900639898 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				E0A0D4962817D4A100639898 /* MiscellaneousViewFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		E0A0D48B2817D2B200639898 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E0A0D4942817D49B00639898 /* ApiManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E0A0D48C2817D30D00639898 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0A0D4922817D49400639898 /* ApodViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E0A0D48D2817D32000639898 /* HttpResource */ = {
+			isa = PBXGroup;
+			children = (
+				E0A0D4902817D48800639898 /* APIResource.swift */,
+			);
+			path = HttpResource;
+			sourceTree = "<group>";
+		};
+		E0A0D49A2817D4EA00639898 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0A0D49B2817D4EA00639898 /* NasaApodResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E0E3B3842817C8D6000840F2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +159,19 @@
 		E0E3B38F2817C8D7000840F2 /* nasa-apod */ = {
 			isa = PBXGroup;
 			children = (
+				E0A0D49A2817D4EA00639898 /* Model */,
+				E0A0D48D2817D32000639898 /* HttpResource */,
+				E0A0D48C2817D30D00639898 /* ViewModel */,
+				E0A0D48B2817D2B200639898 /* Services */,
+				E0A0D48A2817D2A900639898 /* Factory */,
+				E0A0D4892817D2A300639898 /* Extension */,
 				E0E3B3902817C8D7000840F2 /* AppDelegate.swift */,
 				E0E3B3922817C8D7000840F2 /* SceneDelegate.swift */,
 				E0E3B3942817C8D7000840F2 /* ViewController.swift */,
-				E0E3B3962817C8D7000840F2 /* Main.storyboard */,
 				E0E3B3992817C8D8000840F2 /* Assets.xcassets */,
 				E0E3B39B2817C8D8000840F2 /* LaunchScreen.storyboard */,
 				E0E3B39E2817C8D8000840F2 /* Info.plist */,
+				E0A0D49D2817D55A00639898 /* api.plist */,
 			);
 			path = "nasa-apod";
 			sourceTree = "<group>";
@@ -233,8 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E3B39D2817C8D8000840F2 /* LaunchScreen.storyboard in Resources */,
+				E0A0D49E2817D55A00639898 /* api.plist in Resources */,
 				E0E3B39A2817C8D8000840F2 /* Assets.xcassets in Resources */,
-				E0E3B3982817C8D7000840F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +326,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E3B3952817C8D7000840F2 /* ViewController.swift in Sources */,
+				E0A0D4992817D4A800639898 /* LoadingDialog+ViewController.swift in Sources */,
 				E0E3B3912817C8D7000840F2 /* AppDelegate.swift in Sources */,
+				E0A0D4932817D49400639898 /* ApodViewModel.swift in Sources */,
+				E0A0D4972817D4A100639898 /* MiscellaneousViewFactory.swift in Sources */,
+				E0A0D4912817D48800639898 /* APIResource.swift in Sources */,
+				E0A0D4952817D49B00639898 /* ApiManager.swift in Sources */,
 				E0E3B3932817C8D7000840F2 /* SceneDelegate.swift in Sources */,
+				E0A0D49C2817D4EA00639898 /* NasaApodResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +369,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E0E3B3962817C8D7000840F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0E3B3972817C8D7000840F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0E3B39B2817C8D8000840F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
